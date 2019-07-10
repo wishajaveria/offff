@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>video</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>My First Quiz Game </h1>
+    <form id="quiz" name="quiz">
+
+        <p>what is the capital of rhode island?</p>
+        <input id="textbox" type="text" name="question1">
+
+        <p>what is the capital of connecticuts?</p>
+        <input type="radio" id="mc" name="question2" value="hartford">hartford<br>
+        <input type="radio" id="mc" name="question2" value="heartford">heartford<br>
+
+        <p>what is the capital of Newyork?</p>
+        <input type="radio" id="mc" name="question3" value="albany">albany<br>
+        <input type="radio" id="mc" name="question3" value="All benny's">All benny's<br>
+
+        <input id="button" type="button" value="i am finished" onclick="check();">
+    </form>
+    <div id="after_submit">
+        <p id="messages"></p>
+        <p id="number_correct">You finished good job!</p>
+        <img id="picture ">
+    </div>
+   
+</body>
+</html>
